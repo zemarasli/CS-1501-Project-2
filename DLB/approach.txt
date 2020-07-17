@@ -1,0 +1,4 @@
+To store the user history, I used another DLB Trie because it is contiguous,
+and easy to search for prefix completions.
+I made sure the program would search the user history DLB Trie first and
+if the arraylist of completions was less than 5, it would check the general dictionary DLB trie next. 
